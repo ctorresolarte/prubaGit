@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--? REGISTRO -->
+        <div class="container__icons">
+            <h1 class="icons__title">Registrate en DorianDesing!</h1>
+            <a href=""><img src="Assets/Icons/icon-facebook.svg" alt="icono facebook" class="icon icon--facebook"></a>
+            <a href=""><img src="Assets/Icons/icon-google.svg" alt="icono google" class="icon icon--google"></a>
+            <a href=""><img src="Assets/Icons/icon-linkedln.svg" alt="icono linkedln" class="icon icon--linkdln"></a>
+            <a href=""><img src="Assets/Icons/icon-twitter.svg" alt="icono twitter" class="icon icon--twitter"></a>
+        </div>
+        <span>- o -</span>
+
+        <div class="container__form">
+            <form class="form">
+                <label for="name" class="label">¿Cual es su nombre?</label>
+                <input type="text" id="name" placeholder="¿Nombre?" class="input" required>
+
+                <label for="email" class="label">¿Cual es su correo electronico?</label>
+                <input type="email" id="email" placeholder="Correo electronico?" class="input" required>
+                
+                <label for="password" class="label">¿Cual es la contraseña que desea?</label>
+                <input type="password" id="password" placeholder="Contraseña?" class="input" required><br>
+            </form>
+
+            <div class="terminos">
+                <input type="checkbox" id="agreements" class="checkbox" required>
+                <label for="agreements">Acepto los <a href="#">Terminos y condiciones de uso</a></label><br>
+                <input type="checkbox" id="notify" class="checkbox" required>
+                <label for="notify">I would like to receive news, tips and tricks, and other promotional
+                    material</label>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button">Comience su experiencia de aprendizaje</button><br>
+            <a href="inicio-sesion.html" class="links link--1">Iniciar sesion en tu cuenta</a>
+            <a href="#" class="links link--2">¿Ha olvidado su contraseña?</a>
+        </div>
+    </div>
+</body>
+
+</html>
