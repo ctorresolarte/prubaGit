@@ -7,7 +7,8 @@ html {
     font-family: 'Kavoon', cursive;
     color: #f08080;
 }
-.container-imagen{
+/** The CSS for the heart. */
+.container-animacion{
     text-align: center;
     padding: 40px 0;
 }
@@ -16,6 +17,9 @@ html {
 	color: red;
 	animation: latidos .9s infinite;
 }
+/**--------------------------------*/
+
+/** The CSS for the paragraph. */
 .container-parrafos {
     display: flex;
 }
@@ -28,9 +32,11 @@ html {
     border-radius: 15px;
     background: red;
 }
+/**--------------------------------*/
 .animaciones{
     display: flex;
 }
+/** The CSS for the animation square. */
 .loader {
     width: 48px;
     height: 48px;
@@ -60,7 +66,9 @@ html {
     border-radius: 4px;
     animation: jump7456 0.5s linear infinite;
 }
+/**---------------------------------------------*/
 
+/** The animation of the square. */
 @keyframes jump7456 {
     15% {
         border-bottom-right-radius: 3px;
@@ -95,6 +103,7 @@ html {
         transform: scale(1.2, 1);
     }
 }
+/**-----------------------------------------------*/
 
 
 /**animacion de latidos*/
@@ -103,3 +112,4 @@ html {
     50% { transform: scale(1.4); }
     to { transform: none; }
 }
+/**--------------------------------*/
